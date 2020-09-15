@@ -21,3 +21,25 @@ request.onsuccess = function(event) {
 request.onerror = function(event) {
     console.log(error);
 };
+
+//create pending transaction
+function checkDatabase() {
+    const transaction = db.transaction(["pending"], "readwrite");
+    const budgetStore = transaction.objectStore("pending");
+    const getAll = budgetStore.getAll();
+
+    getAll.onsuccess = function() {
+        if (getAll.result.length > 0) {
+            fetch("/api/transaction/bulk", {
+                method: "POST",
+                body:JSON.stringify(getAll.result),
+                headers: {
+                    Accept: "application/json, text/plain, */*",
+                    "Content-Type": "application/json"
+                }
+            })
+
+            
+        }
+    }
+}
