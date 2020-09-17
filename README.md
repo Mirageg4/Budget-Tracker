@@ -24,7 +24,7 @@
 <p>Github: <a href="https://github.com/Mirageg4/Budget-Tracker">Budget-Tracker Repo</a></p>
 
 <hr>
-<img src ="./public/icons/BL-Screenshot.png"/>
+<img src ="./public/icons/BT-Screenshot.png"/>
 <hr>              
 <p>License: Project is licensed under the MIT License. 
 See <a href ="LICENSE.md">LICENSE</a> file for details.
