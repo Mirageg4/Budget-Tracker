@@ -19,7 +19,7 @@
 <h2>Pull Requests welcome for contribution</h2>
 <hr>
 <p>John Manouse</p>
-<p>Live Link: <a href="https://mirageg4.github.io/Budget-Tracker/"
+<p>Live Link: <a href="https://budget411.herokuapp.com/"
 >Budget-Tracker Live Link</a></p>
 <p>Github: <a href="https://github.com/Mirageg4/Budget-Tracker">Budget-Tracker Repo</a></p>
 
